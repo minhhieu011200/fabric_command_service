@@ -1,0 +1,10 @@
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fabric
+    username: postgres
+    password: postgres
